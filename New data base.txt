@@ -1,0 +1,26 @@
+create table garage.app_repair_Jobs
+(customerID integer primary key,
+customerNAME varchar (20) NOT NULL,
+NIC =Number varchar (15) UNIQUE,
+TelephoneNumber varchar (12),
+Address varchar(90),
+VehicalNumber varchar(15),
+Model varchar (15),
+EmployeeID integer,
+ArrivedDate date,
+Departure Date,
+Amount float);
+
+create table garage.app_Add_restoration_Job
+(Customer integer primary key,
+customerNAME varchar (20) NOT NULL,
+NIC =Number varchar (15) UNIQUE,
+Email varchar (30),
+Address varchar(90),
+VehicalNumber varchar(15),
+Model varchar (15),
+EmployeeID integer,
+ArrivedDate date,
+Finishing Date,
+Amount float);
+
